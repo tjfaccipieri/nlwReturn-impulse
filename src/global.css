@@ -2,7 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-.button {
+/* .button {
   @apply bg-violet-500 px-4 h-10 rounded text-violet-100 hover:bg-violet-700 transition-colors
-  /* se quiser trocar a cor pra uma não padrão do tailwind, posso fazer com bg-[hexa da cor entre colchetes] */
+  se quiser trocar a cor pra uma não padrão do tailwind, posso fazer com bg-[hexa da cor entre colchetes]
+} */
+
+body {
+  @apply bg-[#09090a] text-zinc-100
 }
